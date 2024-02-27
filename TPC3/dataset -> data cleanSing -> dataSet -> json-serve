@@ -1,0 +1,20 @@
+dataset -> data cleanSing -> dataSet -> json-server -> API Rest (pedidos que chegam - get Post (entra), put delete json (sai)
+
+/users
+		GET  /users   -> listagem de utilizadores
+		GET  /users/chave  (chave do utilizador)
+		POST /users  -> inserção
+		PUT  /users/chave  -> alteração (vai no body)
+		Delete /users/chave -> eliminação
+
+
+
+TP3 - 1. Análise do dataset e criação da base de dados em jason-server.
+	  2. Serviço que responde na port às seguintes rotas:
+	  		GET  /films  -> listafem dos filmes (cada entrada é link para a pagina 					filme)
+	  		     /films/IdFilme
+	  		     /generos
+	  		     /generos/IdGeneros
+	  		     /ator
+	  		     /ator/IdAtor
+
