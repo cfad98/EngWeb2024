@@ -3,7 +3,7 @@
 ## Autor
 
 **Nome:** Carlos Dias
-**Número de Aluno:** a93185
+**Número de Aluno:** a93185.
 
 ## Enunciado TP1
 
