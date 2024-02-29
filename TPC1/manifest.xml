@@ -15,14 +15,14 @@
     </meta>
 
     <resumo>
-        <p>Criar um indice de páginas com todas as ruas de Braga fornecidas no dataset</p>
+        <p>Criar um índice de páginas com todas as ruas de Braga fornecidas no dataset</p>
         <p>Criar páginas com as informações dísponiveis sobre as ruas</p>
         <p>Cada página deverá possuir um rodapé e um botão de voltar atrás</p>
-        <p>Matérial Necessário para a realização deste TPC disponível aqui<url>https://epl.di.uminho.pt/~jcr/AULAS/EngWeb2024/semana1/MapaRuas-materialBase.zip</url><texto>url embutido</texto></p>
+        <p>Matérial necessário para a realização deste TPC disponível aqui<url>https://epl.di.uminho.pt/~jcr/AULAS/EngWeb2024/semana1/MapaRuas-materialBase.zip</url><texto>url embutido</texto></p>
     </resumo>
 
     <resultados>
-        <resultado>Indice de ruas completo</resultado>
-        <resultado>Todas as páginas de detalhes das ruas completas</resultado>
+        <resultado>Índice de ruas completo</resultado>
+        <resultado>Todas as páginas com detalhes das ruas completas</resultado>
     </resultados>
 </doc>
