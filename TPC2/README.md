@@ -1,4 +1,4 @@
-# TPC2: Página web Escola de Música com recurso a json-server e node.js
+# TPC2: Página Web de uma Escola de Música
 
 ## Autor
 
