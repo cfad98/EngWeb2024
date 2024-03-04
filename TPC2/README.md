@@ -14,7 +14,7 @@
 
 O website terá páginas de índice para listar os alunos, instrumentos e cursos disponíveis. Além disso, terá páginas detalhadas para exibir informações específicas sobre um aluno ou um curso.
 
-## Serviço Node.js e páginas
+## Serviço Node.js e Páginas
 
 - Página Inicial '/' : Aqui você encontrará opções para acessar as listas de alunos, cursos e instrumentos.
 
