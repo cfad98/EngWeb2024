@@ -6,7 +6,7 @@
 
 **Id:** A93185
 
-## Enunciado TP2
+## Enunciado TPC2
 
 **Data:** 2024-02-25
 
