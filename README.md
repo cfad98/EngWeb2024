@@ -14,4 +14,4 @@
 
 **Fotografia:**
 
-![Fotografia do Aluno](Filipe.jpeg)
+![Fotografia do Aluno](Filipe.jng)
