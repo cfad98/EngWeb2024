@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca de Filmes</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 40px 0;
+        }
+        h1 {
+            margin: 0;
+            font-size: 48px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .opcoes-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .opcoes-list li {
+            margin-bottom: 20px;
+            background-color: #34495e;
+            padding: 20px;
+            border-radius: 10px;
+            transition: background-color 0.3s, transform 0.3s;
+            cursor: pointer;
+        }
+        .opcoes-list li:hover {
+            background-color: #2c3e50;
+            transform: translateY(-5px);
+        }
+        .opcoes-list li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Biblioteca de Filmes</h1>
+    </header>
+    <div class="container">
+        <ul class="opcoes-list">
+            <li><a href="/filmes">Lista de Filmes</a></li>
+            <li><a href="/atores">Lista de Atores</a></li>
+            <li><a href="/generos">Lista de Gêneros</a></li>
+        </ul>
+    </div>
+    <footer>
+        <h5>Gerado por EngWeb2024</h5>
+    </footer>
+</body>
+</html>
