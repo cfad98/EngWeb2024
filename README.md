@@ -14,4 +14,4 @@
 
 **Fotografia:**
 
-![Fotografia do Aluno](https://avatars.githubusercontent.com/u/130458097?v=4)
+![Fotografia do Aluno](Filipe.jpeg)
