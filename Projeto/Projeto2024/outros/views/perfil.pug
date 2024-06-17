@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title Perfil
+    link(rel="stylesheet" href="/css/styles.css")
+  body
+    h1 Perfil do Usuário
+    nav
+      ul
+        li: a(href='/') Página Inicial
+        li: a(href='/recursos') Recursos
+    section
+      h2 Informações do Usuário
+      p Nome: #[strong #{usuario.nome}]
+      p Email: #[strong #{usuario.email}]
+      p Senha: #[strong #{usuario.filiacao}]
+      p DataRegisto: #[strong #{usuario.dataRegisto}]
+    section
+      h2 Meus Recursos
+      p Aqui vão os recursos do usuário...
+    script(src="/js/main.js")

@@ -1,0 +1,11 @@
+sudo systemctl start mongod
+
+sudo systemctl status mongod
+
+mongosh
+
+node app.js
+
+show dbs
+
+show collections

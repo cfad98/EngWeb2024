@@ -1,0 +1,44 @@
+doctype html
+html
+  head
+    title Plataforma de Gestão Educativa
+    link(rel="stylesheet" href="/css/styles.css")
+  body
+    .container
+      .card-3d-wrap
+        .card-3d-wrapper
+          .card-front
+            .center-wrap
+              .section.text-center
+                h1.mb-4.pt-5.text-center Plataforma de Gestão Educativa
+                form#login-form
+                  .form-group
+                    input(type="email" name="logemail" class="form-style" placeholder="O seu Email" id="logemail" autocomplete="off")
+                    i.input-icon.uil.uil-at
+                  .form-group.mt-2
+                    input(type="password" name="logpass" class="form-style" placeholder="A sua Palavra-passe" id="logpass" autocomplete="off")
+                    i.input-icon.uil.uil-lock-alt
+                  button.btn.mt-4.submit(type="submit") Entrar
+                p.mb-0.mt-4.text-center
+                  a.link(href='#') Esqueceu a sua palavra-passe?
+                p.text-center
+                  a.link#switch-to-signup(href='#') Não tem uma conta? Registe-se
+
+          .card-back
+            .center-wrap
+              .section.text-center
+                h1.mb-4.pt-5.text-center Plataforma de Gestão Educativa
+                form#signup-form
+                  .form-group
+                    input(type="text" name="logname" class="form-style" placeholder="O seu Nome Completo" id="logname" autocomplete="off")
+                    i.input-icon.uil.uil-user
+                  .form-group.mt-2
+                    input(type="email" name="logemail" class="form-style" placeholder="O seu Email" id="logemail" autocomplete="off")
+                    i.input-icon.uil.uil-at
+                  .form-group.mt-2
+                    input(type="password" name="logpass" class="form-style" placeholder="A sua Palavra-passe" id="logpass" autocomplete="off")
+                    i.input-icon.uil.uil-lock-alt
+                  button.btn.mt-4.submit(type="submit") Registar
+                p.text-center
+                  a.link#switch-to-login(href='#') Já tem uma conta? Entre
+    script(src="/js/main.js")

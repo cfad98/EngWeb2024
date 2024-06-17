@@ -1,0 +1,24 @@
+doctype html
+html
+  head
+    title Detalhe do Recurso
+    link(rel="stylesheet" href="/css/styles.css")
+  body
+    h1 Detalhe do Recurso
+    nav
+      ul
+        li: a(href='/') Página Inicial
+        li: a(href='/perfil') Perfil
+        li: a(href='/recursos') Recursos
+    section
+      h2 Título: #[strong #{recurso.titulo}]
+      p Descrição: #[strong #{recurso.descricao}]
+      p Tipo: #[strong #{recurso.tipo}]
+      p DataCriacao: #[strong #{recurso.dataCriacao}]
+      p Autor: #[strong #{recurso.autor}]
+      p Estado: #[strong #{recurso.estado}]
+      p Avaliação: #[strong #{recurso.avaliacao}]
+    section
+      h2 Comentários
+      p Aqui vão os comentários do recurso...
+    script(src="/js/main.js")
