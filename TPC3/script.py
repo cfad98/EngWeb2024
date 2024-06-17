@@ -27,8 +27,8 @@ def script_json(data):
     return new_data, actors, genres
 
 def main():
-    input_file_path = "~/Desktop/Web/EngWeb2024/TPC3/filmes.json"
-    output_file_path = "~/Desktop/Web/EngWeb2024/TPC3/filmes_fix.json"
+    input_file_path = "filmes.json"
+    output_file_path = "filmes_fix.json"
 
     with open(input_file_path, 'r', encoding='utf-8') as file:
         data = file.read()
